@@ -69,3 +69,16 @@ inquirer
             name: "shape"
         },
     ])
+    .then((data) => {
+
+        // assigns createSvg function return to 'svg' variable
+        let svg = createSvg(data);
+
+        // baseline template for svg file
+        let baseSvg = `<svg width="300" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">${svg}</svg>`;
+
+        fs.writeFile("./examples/logo.svg", baseSvg, (err) => {
+          if (err) throw err;
+          console.log("Generated logo.svg");
+        });
+      });
