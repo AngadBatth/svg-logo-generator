@@ -3,6 +3,42 @@ const {Circle, Square, Triangle} = require("./lib/shapes");
 const fs = require("fs");
 const inquirer = require("inquirer");
 
+function createSvg(data) {
+
+    switch (data.shapeChoice) {
+
+      case "circle":
+        const circleShape = new Circle(
+          data.text,
+          data.color,
+          data.shape
+        );
+
+        return circleShape.render();
+
+      case "square":
+        const squareShape = new Square(
+          data.text,
+          data.color,
+          data.shape
+        );
+
+        return squareShape.render();
+
+      case "triangle":
+            const triangleShape = new Triangle(
+              data.text,
+              data.color,
+              data.shape
+            );
+
+            return triangleShape.render();
+
+      default:
+        console.log("Invalid Shape");
+    }
+  }
+
 // user input section using inquirer for prompts
 inquirer
     .prompt([
