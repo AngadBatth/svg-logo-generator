@@ -20,6 +20,8 @@ Once you've done that, open the terminal and run `npm install` to install the de
 <br />
 
 ## Usage
+[Link to video walkthrough](https://youtu.be/JRbR4CY795Y) <br />
+
 Run the `node index.js` command to be shown a series of prompts.<br /><br />
 These prompts will ask the user what text they would like on the logo (between 1-3 characters), which color they would like the text to be, then they will be shown a list of shapes to choose from, and finally the user will input their desired color for the shape.<br /><br />
 
