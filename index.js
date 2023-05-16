@@ -63,7 +63,7 @@ inquirer
             type: "list",
             message: "Select the desired shape of the logo",
             name: "shapeChoice",
-            choices: ["Circle", "Square", "Triangle"]
+            choices: ["circle", "square", "triangle"]
         },
 
         {
