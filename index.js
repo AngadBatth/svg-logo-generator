@@ -1,8 +1,11 @@
 // including shape classes
 const {Circle, Square, Triangle} = require("./lib/shapes");
+
+// including fs + inquirer packages for user input
 const fs = require("fs");
 const inquirer = require("inquirer");
 
+// function for creating the SVG using user data
 function createSvg(data) {
 
     switch (data.shapeChoice) {
