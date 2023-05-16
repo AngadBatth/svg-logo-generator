@@ -1,1 +1,1 @@
-<svg width="300" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg"><rect x="50" y="0" width="200" height="200" fill="#FF0000"/><text x="150" y="120" font-size="50" text-anchor="middle" fill="black">ABC</text></svg>
+<svg width="300" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg"><rect x="50" y="0" width="200" height="200" fill="red"/><text x="150" y="120" font-size="50" text-anchor="middle" fill="black">ABC</text></svg>
