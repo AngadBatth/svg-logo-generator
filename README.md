@@ -15,12 +15,12 @@ This is an application used to generate logos in SVG format with user input
 <br />
 
 ## Installation
-Clone the repository and ensure you have node.js installed.<br />
+Clone the repository and ensure you have node.js installed.<br /><br />
 Once you've done that, open the terminal and run `npm install` to install the dependencies.
 <br />
 
 ## Usage
-Run the `node index.js` command to be shown a series of prompts.<br />
+Run the `node index.js` command to be shown a series of prompts.<br /><br />
 These prompts will ask the user what text they would like on the logo (between 1-3 characters), which color they would like the text to be, then they will be shown a list of shapes to choose from, and finally the user will input their desired color for the shape.<br />
 
 ## Credits
