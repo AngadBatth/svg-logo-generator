@@ -1,4 +1,4 @@
-// including shapes, fs and inquirer for user inputs
+// including shape classes
 const {Circle, Square, Triangle} = require("./lib/shapes");
 const fs = require("fs");
 const inquirer = require("inquirer");
@@ -11,7 +11,7 @@ inquirer
             type: "input",
             message: "Enter the text you would like on the logo (between 1-3 char)",
             name: "text",
-            validate: (text) => text.length <= 3 && text.length >= 1
+            validate: (text) => text.length <= 3 && text.length > 0
         },
 
         {
